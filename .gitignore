@@ -1,0 +1,72 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+.ENV/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+*.env
+
+
+# =========================
+# LangChain / LLM Cache
+# =========================
+.cache/
+langchain_cache/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# =========================
+# Test & Temporary Files
+# =========================
+temp/
+tmp/
+*.tmp
+*.bak
+
+# =========================
+# API keys / secrets
+# =========================
+*.key
+*.pem
+secrets/

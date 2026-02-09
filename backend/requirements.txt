@@ -1,0 +1,18 @@
+
+# Requirements for RAG
+langchain
+langchain-community
+langchain-core
+beautifulsoup4 
+lxml
+sentence-transformers
+langchain-huggingface 
+chromadb
+langchain-openai
+
+#FastAPI Requirements
+
+FastAPI
+uvicorn
+pydantic
+python-dotenv
