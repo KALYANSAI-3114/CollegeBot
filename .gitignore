@@ -65,6 +65,18 @@ tmp/
 *.bak
 
 # =========================
+# ChromaDB / Vector stores
+# =========================
+backend/chroma_db/
+backend/vectorstore/
+chromadb/
+*.sqlite3
+*.db
+*.bin
+
+
+
+# =========================
 # API keys / secrets
 # =========================
 *.key
