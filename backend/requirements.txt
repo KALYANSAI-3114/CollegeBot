@@ -1,18 +1,24 @@
+# 🚨 FORCE CPU-ONLY TORCH (ABSOLUTELY REQUIRED)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.1.0+cpu
 
-# Requirements for RAG
+# Sentence embeddings (depends on torch)
+sentence-transformers
+
+# LangChain stack
 langchain
 langchain-community
 langchain-core
-beautifulsoup4 
-lxml
-sentence-transformers
-langchain-huggingface 
-chromadb
 langchain-openai
+langchain-huggingface
+chromadb
 
-#FastAPI Requirements
+# Parsing
+beautifulsoup4
+lxml
 
-FastAPI
+# FastAPI
+fastapi
 uvicorn
 pydantic
 python-dotenv
