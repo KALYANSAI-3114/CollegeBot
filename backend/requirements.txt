@@ -1,11 +1,8 @@
-# 🔴 Force CPU-only PyTorch (stable for Python 3.11)
---extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.1.2+cpu
-
-# Sentence embeddings
+# CPU-only PyTorch (HF compatible)
+torch
 sentence-transformers
 
-# LangChain stack
+# LangChain
 langchain
 langchain-community
 langchain-core
