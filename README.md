@@ -63,7 +63,7 @@ SARVAM_API_KEY=your_sarvam_api_key_here
 
 1. **Run the application**
 ```bash
-streamlit run app.py
+uvicorn main:app --reload
 ```
 
 2. **Access the chatbot**
